@@ -1,0 +1,3 @@
+Les pseudos éléments : marquent un état. Un pseudo élément commence par "::"
+Les pseudos classes : rendent actif un état, donnant l'impresion d'une ACTION interactive. La pseudo classe la plus connue en css est :hover
+une pseudo classe, commence par ":"

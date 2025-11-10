@@ -1,0 +1,59 @@
+.maliste {
+    width: 680px;
+    background-color: rgba(172, 255, 47, 0.309);
+    margin: 15px;
+}
+
+.Titre {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.BtnSubmit {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.BtnSubmit:hover {
+    background-color: rgb(49, 49, 49);
+    font-size: 18px;
+    color: white;
+}
+
+.a-ligne {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vert {
+    background-color: rgb(0, 237, 32);
+    color: black;
+}
+
+
+.rouge {
+    background-color: rgb(225, 52, 4);
+    color: white;
+}
+
+.blanc {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid,1px,black;
+}
+

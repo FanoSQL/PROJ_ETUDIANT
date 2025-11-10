@@ -1,0 +1,1 @@
+<h2>Contenu de la page 6</h2>

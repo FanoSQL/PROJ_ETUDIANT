@@ -1,0 +1,3 @@
+<?php
+	$nomprojet="rencontre php";
+?>

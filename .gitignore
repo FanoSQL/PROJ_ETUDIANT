@@ -1,0 +1,17 @@
+# Fichiers de configuration sensibles
+config/
+AI_/
+PRIVATE_/
+ETUDIANTS_/
+.env
+# Dossiers de cache
+cache/
+logs/
+# Dossiers d'uploads
+uploads/
+# Dépendances PHP (si gérées avec Composer)
+vendor/
+# Fichiers temporaires
+*.tmp
+*.log
+*.zip

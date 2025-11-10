@@ -1,0 +1,91 @@
+
+.container{
+    margin-top: 7%;
+    margin-left: 7%;
+    width : 100%;
+    height: 100%;
+}
+
+.container {
+   /* background-color: aqua;*/
+    width: 85%;
+    height: 350px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+   /* background-image: url('../images/FOND_2.jpg');
+    background-repeat: no-repeat;*/
+
+}
+
+.bouton1 {
+    background-color: black;
+    width: 400px;
+    height: 40px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.bleu_mer {
+    background-color: #0B9BC4;
+}
+
+.bleu_mer:hover {
+    background-color: #018fb7;
+}
+
+
+.bleu_ciel {
+    background-color: #0BCCB7;
+}
+
+.bleu_ciel:hover {
+    background-color: #03c0aa;
+}
+
+
+.bleu_marine {
+    background-color: #3778F5;
+}
+
+.bleu_marine:hover {
+    background-color: #105deb;
+}
+
+.violet {
+    background-color: #902DEF;
+}
+
+.violet:hover {
+    background-color: #7600e3;
+}
+
+
+.orange {
+    background-color: #FFB300;
+}
+
+.orange:hover {
+    background-color: #ffc234;
+}
+
+.vert {
+    background-color: #0EB916;
+}
+
+.vert:hover {
+    background-color: #00bf0a;
+}
+
+.lien-bouton {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}

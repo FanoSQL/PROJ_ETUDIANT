@@ -1,0 +1,37 @@
+[VDOREP]
+dossier_1=C:\MesProjets\VDO_
+dossier_2=C:\Users\GoNUMERIQUE\AppData\LocalLow\iTop Screen Recorder\Outputs
+[MESVDO]
+nbre=2
+fichier_1=IMage_HTML_0
+fichier_2=html5_Images_0.mp4
+[INFOQUALITE]
+qualite=viable
+date=20230326
+auteur=SMONTET
+[ARTICLE]
+id=0
+[FORMATION]
+formation=
+IdCours=
+PointsCommuns=Création de site internet, Développeur Web et Web Mobile, Concepteur Développeur d'application
+Chapitre:HTML débutant
+Objectifs : Ecriture HTML, insertion d'une image, liens
+[SOURCE]
+amorce=index.html
+imageprojet=
+[PROJET]
+nomprojet=
+[CATEG]
+categorie=CODE SOURCES
+souscategorie=HTML
+[EXERCICES]
+nbre=6
+source_1=C:\MesProjets\Malibrairie\HTML_\EXOS_\0_
+source_2=C:\MesProjets\Malibrairie\HTML_\EXOS_\1_
+source_3=C:\MesProjets\Malibrairie\HTML_\EXOS_\2_
+source_4=C:\MesProjets\Malibrairie\HTML_\EXOS_\3_
+source_5=C:\MesProjets\Malibrairie\HTML_\EXOS_\4_
+source_6=C:\MesProjets\Malibrairie\HTML_\EXOS_\5_
+[SOCIETE]
+id=1

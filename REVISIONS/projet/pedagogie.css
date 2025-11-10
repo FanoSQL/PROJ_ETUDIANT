@@ -1,0 +1,45 @@
+.TitreProjet {
+    font-size: 32px;
+}
+
+.SousTitreProjet {
+    font-size: 28px;
+    font-style: italic;
+}
+
+.Titre3-pedagogie {
+    font-size: 26px;
+}
+.description_pedagogique, .ul-pedagogie {
+    font-size: 22px;
+}
+
+.objectifs-pedagogiques:hover, .activite-referentiel:hover {
+    color: white;
+    background-color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.zbutton_pedagogique {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.telecharge-pedagogie {
+    display: flex;
+    width: 340px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.telecharge-pedagogie:hover {
+    background-color: black;
+}

@@ -1,0 +1,70 @@
+.ligne {
+    width: 100%;
+    height: 40px;
+
+    background-color: beige;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Btn {/*Bouton  href*/
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+}
+
+.Btn:hover {
+    background-color: rgba(0, 183, 255, 0.866);
+}
+
+.rouge {
+    background-color: red;
+    color: white;
+}
+
+.rouge:hover {
+    background-color: rgb(138, 2, 2);
+    color: white;
+}
+
+.noir {
+    background-color: black;
+    color: white;
+}
+
+.vert {
+    background-color: green;
+    color: white;
+}
+
+
+/**/
+
+
+        table {
+            /*border: solid 1px grey;*/
+           /* border-collapse: collapse;*/
+            width: 100%;
+        }
+
+        th, td {
+            height: 60px;
+            border-bottom: 1px solid rgb(77, 77, 77);
+            border-top: 1px solid transparent;
+            border-left: 1px solid transparent;
+            border-right: 1px solid transparent;
+        }
+
+        th {
+            background-color: rgb(233, 233, 233);
+        }
+
+        tr, td {
+            border: none 1px black;
+            border-bottom: 1px solid rgb(77, 77, 77);
+        }

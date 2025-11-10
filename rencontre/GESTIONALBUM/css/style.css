@@ -1,0 +1,32 @@
+.tableau {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Nouveaucompte {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+.zligne {
+    width: 160px;
+    height: 30px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.zligne:hover {
+    background-color: rgba(240, 248, 255, 0.883);
+    cursor: pointer;
+}
+
+.monidentifiant, .monmotdepasse {
+    font-size: 20px;
+}
+
+.monidentifiant {
+    font-weight: 400;
+}

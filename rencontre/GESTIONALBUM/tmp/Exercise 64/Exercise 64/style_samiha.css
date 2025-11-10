@@ -1,0 +1,150 @@
+#container {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    width: 100%;
+    margin: 20px;
+}
+
+.deuxdiv {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+
+.left {
+    display: block;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+.picture {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+
+.right {
+    display: block;
+    justify-content: space-around;
+    width: 500px;
+    height: 400px;
+    background-color: orange;
+    background-repeat: no-repeat;
+
+}
+
+ /* .form { 
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nomprenom {
+    display: flex;
+    margin-left: 30px;
+    gap: 10px;
+    
+
+    
+
+}
+
+.nom {
+    
+    border: solid;
+    margin-bottom: 10px;
+
+}
+
+.prenom {
+    
+    border: solid;
+    margin-bottom: 10px;
+
+
+}
+
+.mailpass{
+    display: block;
+    
+
+
+    
+
+
+}
+
+.email {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    margin-left: 30px;
+    
+    border: solid;
+    margin-bottom: 10px;
+
+
+}
+
+.motdepass {
+    
+    border: solid;
+    margin-bottom: 10px;
+    margin-left: 30px
+}
+
+.bouton {
+    width: 150px;
+    height: 30px;
+    border: solid;
+}*/ */
+
+.bouton {
+    margin-top: 10px;
+    margin-left: 30px
+}
+
+/* .nom {
+    margin-left: 10px;
+}
+
+.prenom {
+    margin-left: 10px;
+
+
+}
+
+.email {
+    margin-left: 10px;
+    margin-top: 10px;
+} */
+
+
+/*.password {
+    
+    margin-left: 10px;
+    margin-top: 10px;
+}*/
+
+.motdepass{
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}

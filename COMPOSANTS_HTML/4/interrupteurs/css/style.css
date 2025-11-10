@@ -1,0 +1,35 @@
+/*on cache la checkbox*/
+.interrupteur-checkbox {
+    display: none;
+}
+
+
+/* arrondis au fond de l’interrupteur*/
+.interrupteur-switch {
+    display: inline-block;
+    position: relative;
+    width:30px;
+    height: 16px;/*Hauteur de l'interrupteur*/
+    background-color: #cacaca;
+    border-radius: 8px;
+}
+
+.interrupteur-switch::before {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    height: 12px;/*Hauteur du point*/
+    width: 12px;
+    border-radius: 50%;
+    top: 2px;
+    left: 4px;
+}
+
+/*styles lorsque la case est cochée */
+.interrupteur-checkbox:checked + .interrupteur-switch {
+    background-color: #028ddd;
+}
+ 
+.interrupteur-checkbox:checked + .interrupteur-switch::before {
+    left: 14px;
+}

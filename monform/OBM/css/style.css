@@ -1,0 +1,72 @@
+.nav {
+    background-color: #CC0000;
+    width: 800px;
+    height: 60px;
+}
+
+.contenu {
+    width: 800px;
+    text-align: center;
+}
+
+.grandtitre {
+    font-size: 48px;
+    color: #CC0000;
+}
+
+.titrenav {
+  font-size: 28px;
+   color: white;
+   text-align: center;
+}
+
+.titre2{
+   font-size: 24px;
+}
+
+.titre3{
+       font-size: 20px;
+}
+
+.paragraphe{
+     font-size: 16px;  
+}
+
+
+.in-put {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 600px;
+    height: 30px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.BtnValider {
+    width: 40%;
+    height: 40px;
+    background-color: #CC0000;
+    color: white;
+    font-weight: bold;
+
+}
+
+.souligne {
+    color: #CC0000;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.div_paragraphe {
+    margin: 20px;
+}
+
+.BtnRadio {
+    height: 20px;
+}

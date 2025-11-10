@@ -1,0 +1,6 @@
+
+h1::first-line {/*Pas d'action*/
+  color: blue;
+  font-size: 48px;
+  text-transform: uppercase;
+}

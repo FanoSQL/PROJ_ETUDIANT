@@ -1,0 +1,1 @@
+<img class="img_album" src="photos/<?=$NomImage;?>" alt="">

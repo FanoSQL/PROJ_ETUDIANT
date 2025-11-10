@@ -1,0 +1,10 @@
+.ligne::before {
+    content: "Le monde entier : ";
+}
+.info::before {
+    content:"Pseudo élément ::before";
+    width: 100%;
+    height: 30px;
+    background-color: azure;
+    border: solid 1px rgb(210, 206, 206);
+}

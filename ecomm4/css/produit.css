@@ -1,0 +1,66 @@
+
+.container {
+   /* background-color: blue;*/
+    width: 1200px;
+    /*height: 400px;*/
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.boite_produit {
+   /* background-color: yellow;*/
+    width: 260px;
+    height: 340px;
+    border: solid;
+    border-color: rgb(209, 209, 209);
+    margin-left : 4px;
+    border-bottom: 24px;
+}
+
+.photo {
+    width: 180px;
+}
+
+
+.libelle {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.prix {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+/*TEMPORAIRE*/
+.stock {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.BtnAjoutPanier {
+
+display: flex;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+width: 200px;
+height: 40px;
+
+background-color: orange;
+color: black;
+font-size: 18px;
+
+
+}

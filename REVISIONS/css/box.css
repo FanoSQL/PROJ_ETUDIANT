@@ -1,0 +1,55 @@
+
+.zbox-container {
+    width: 100%;
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+
+.box_container {
+    width: 300px;
+    /*background-color: aqua;*/
+    margin: 15px;
+    /*flex-shrink: 1;*/
+
+}
+
+
+.img-annonce {
+    width: 320px;
+    height: 340px;
+    border-radius: 8px;
+    /*flex-shrink: 1;*/
+}
+
+.ztexte {
+    width: 300px;
+    /*background-color: blueviolet;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.titre-maison, .prix-maison, .villeCodePostal, 
+.ville-maison, .date-anonce {
+    font-size: 18px;
+}
+
+.titre-maison, .prix-maison {
+    font-weight: bold;
+}
+
+.titre-maison {
+    font-size: 28px;
+}
+
+.prix-maison {
+    font-size: 22px;
+}
+
+.ville-maison, .date-anonce {
+    font-style: italic;
+    color: gray;
+}

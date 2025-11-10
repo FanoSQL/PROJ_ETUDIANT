@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+}
+
+/* HEADER*/
+.mabanniere {
+    background-color: #404040;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.z-gauche {
+    width: 20%;
+    height: 60px;
+   /* background-color: brown;*/
+    display: flex;
+    align-items: center;
+}
+
+
+.z-centre {
+    width: 80%;
+    height: 60px;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titre-espace {
+    color: white;
+    font-size: 20px;
+}
+
+.img-logo {
+    /*width: 100%;*/
+    height: 40px;
+}
+
+/*FIN HEADER ---------------------*/
+
+
+
+/*iFRAME COTE GAUCHE*/
+.body-menu {
+    background-color: black;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.SousTitreMenu {
+    color: rgba(255, 255, 255, 0.739);
+    font-style: italic;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.zmenu-frame-container {
+    width: 90%;
+    height: 100%;
+    /*background-color: aqua;*/
+}
+
+.zmenu-gauche {
+    /*background-color: red;*/
+    width: 90%;
+    height: 60px;
+    margin: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.BtnGaucheMenu {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    width: 240px;
+    height: 40px;
+   /* background-color: black;*/
+    margin: 20px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*text-align: center;*/
+    align-items: center;
+    /*transition: color 0.03s;*/
+    transition-property: background-color, font-size, transform, color;
+    transition-timing-function: ease-in-out;
+}
+
+
+.BtnGaucheMenu:hover {
+    background-color: #323030;
+    transition-duration: 0.3s;
+    font-size: 26px;
+    /*transition-property: background-color;*/
+}
+
+/*-------------------------*/
+

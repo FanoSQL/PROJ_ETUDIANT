@@ -1,0 +1,65 @@
+* {
+    font-size: 28px;
+}
+
+em {
+    background-color: #ffe75d;
+    font-weight: bold;
+}
+
+.madiv {
+    width: 600px;
+    height: 220px;
+    background-color: #dedede3f;
+}
+
+
+
+
+/*----- Navigation */
+.NumberPage {
+    font-size: 48px;
+}
+
+.pieddepage-nav {
+    margin-left: 20px;
+    width: 95%;
+    height: 40px;
+    /*background-color: aqua;*/
+    position: fixed;
+    bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.madiv-bleu, .madiv-rouge {
+    width: 200px;
+    height: 200px;
+}
+
+.madiv-bleu {
+    background-color: blue;
+}
+
+.madiv-rouge {
+    background-color: red;
+}
+
+.BtnNav {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 0, 81);
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.BtnNav:hover {
+    background-color: black;
+    font-size: 26px;
+}
+/*-------------------*/
